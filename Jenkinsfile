@@ -6,11 +6,7 @@ pipeline {
 
         stage ('Build Servlet Project') {
 
-            steps {
-
-               
-
-            }
+            
         }
     }
 }
