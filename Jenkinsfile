@@ -1,17 +1,13 @@
 pipeline {
     agent any
     stages {
-        stage ('Build Servlet Project') {
+        stage('Example') {
             steps {
-                /*For windows machine */
-               bat  'mvn clean package'
+               message "Should we continue?"
 
-                /*For Mac & Linux machine */
-               // sh  'mvn clean package'
-            }
-
-            
             }
         }
-
+    }
+   
+    }
 }
