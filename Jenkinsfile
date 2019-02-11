@@ -1,13 +1,16 @@
 pipeline {
+
     agent any
+
     stages {
-        stage('Example') {
+
+        stage ('Build Servlet Project') {
+
             steps {
-               message "Should we continue?"
+
+                bat  'mvn clean package'
 
             }
         }
-    }
-   
     }
 }
